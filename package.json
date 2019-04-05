@@ -1,5 +1,5 @@
 {
-  "name": "Arcsinus-test-task",
+  "name": "arcsinus-test-task",
   "version": "1.0.0",
   "description": "Arcsinus test task",
   "sasslintConfig": "./.sass-lint.yml",
