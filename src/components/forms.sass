@@ -1,0 +1,48 @@
+@import './vars'
+
+$buttonH: 45px
+$inputM: 45px
+.container
+  font-family: monospace
+.form
+  font-family: inherit
+.formTitle
+  margin: 50px 0
+  font-family: inherit
+  font-size: 2rem
+.inputContainer
+  position: relative
+  .label
+    margin: 0 0 10px
+    font-family: inherit
+    font-size: 1.6rem
+  .input
+    width: 100%
+    padding: 15px
+    font-family: inherit
+    font-size: 1.6rem
+    border: 1px solid #c5c5c5
+    border-radius: 5px
+    box-sizing: border-box
+  .notValid
+    min-height: 15px
+    margin-bottom: 30px
+    font-size: 1.2rem
+    color: red
+.formButton
+  width: 100%
+  height: $buttonH
+  margin-top: 50px
+  font-weight: 900
+  color: #fff
+  text-transform: uppercase
+  cursor: pointer
+  background: linear-gradient(to right, #ce7eff 0%, #b265fd 100%)
+  border: 0
+  border-radius: $buttonH / 2
+  outline: 0
+  box-shadow: 0 1px 5px 1px rgba(100, 100, 100, .3)
+
+@media screen and (max-width: $mobileW)
+  .formTitle
+    text-align: center
