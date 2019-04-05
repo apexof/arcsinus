@@ -11,10 +11,7 @@ const MONGODB_URI = `mongodb+srv://${user}:${pass}@rapmash-2dv5p.mongodb.net/${D
 mongoose.connection.once("open", () => console.log("Connected to MongoDB"));
 
 function DBconnect() {
-  return mongoose.connect(MONGODB_URI, {
-    useNewUrlParser: true,
-    useCreateIndex: true
-  });
+  return mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 }
 
 module.exports = {
