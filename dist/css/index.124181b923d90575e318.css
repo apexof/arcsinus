@@ -1,0 +1,198 @@
+._8Ph1qgvvqjSOkZiFdS2zc {
+  position: absolute;
+  top: 82px;
+  left: 5px;
+  z-index: 1;
+  width: 100%;
+  font-size: 1.6rem;
+  background: #fff;
+  border: 1px dashed #9e9e9e;
+  box-shadow: 3px 3px 8px 0 rgba(142, 142, 142, 0.3);
+  box-sizing: border-box; }
+  ._8Ph1qgvvqjSOkZiFdS2zc .UZEfARnMpumidnf12yq7h {
+    padding: 5px;
+    cursor: pointer; }
+    ._8Ph1qgvvqjSOkZiFdS2zc .UZEfARnMpumidnf12yq7h:hover {
+      background-color: #dcdcdc; }
+
+._9hvzlZDs8HowLUMwl6CUQ {
+  display: none; }
+
+._3wwp-0Es6UCRnM5qXPyuag {
+  position: relative; }
+  ._3wwp-0Es6UCRnM5qXPyuag ._1qYrDsxCkrHt-yo3pvd_jZ {
+    margin: 0 0 10px;
+    font-family: monospace;
+    font-size: 1.6rem; }
+  ._3wwp-0Es6UCRnM5qXPyuag ._1_-W57PAehTkh-Qyqn-HAh {
+    width: 100%;
+    padding: 15px;
+    font-family: monospace;
+    font-size: 1.6rem;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    box-sizing: border-box; }
+  ._3wwp-0Es6UCRnM5qXPyuag ._2D-axpK6RyVEhSn3dv8p6z {
+    min-height: 15px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    color: red; }
+
+._1lMcqI-2fBLnWtycp_beAd {
+  font-family: monospace; }
+
+.OLfQzXNcmMW01X1Soc7tg {
+  font-family: inherit; }
+
+._2zYsCo3IWCS2OCwsYRJTJB {
+  margin: 50px 0;
+  font-family: inherit;
+  font-size: 2rem; }
+
+._2RNYGlycYY7pAR3PqiBMUy {
+  width: 100%;
+  height: 45px;
+  margin-top: 50px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(to right, #ce7eff 0%, #b265fd 100%);
+  border: 0;
+  border-radius: 22.5px;
+  outline: 0;
+  box-shadow: 0 1px 5px 1px rgba(100, 100, 100, 0.3); }
+
+@media screen and (max-width: 550px) {
+  ._2zYsCo3IWCS2OCwsYRJTJB {
+    text-align: center; } }
+
+.vPzcedFJu4CxI6MK5GvZe {
+  margin-top: 0; }
+
+._1NiPwTU-oel3xET1kF07c- {
+  position: relative;
+  min-width: 250px;
+  padding: 20px;
+  overflow: visible;
+  background: white;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  outline: none; }
+
+._3iSLa3Fu2y9pv56ARHncl7 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+._2zhloFMUMLiiXoP08WdeN- {
+  position: absolute;
+  top: -25px;
+  right: -20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer; }
+
+@media screen and (max-width: 550px) {
+  ._1NiPwTU-oel3xET1kF07c- {
+    width: 99%;
+    height: 99%;
+    overflow: scroll;
+    box-sizing: border-box; }
+    ._1NiPwTU-oel3xET1kF07c-::-webkit-scrollbar {
+      display: none; }
+  ._3iSLa3Fu2y9pv56ARHncl7 {
+    background-color: rgba(166, 166, 166, 0.7); }
+  ._2zhloFMUMLiiXoP08WdeN- {
+    top: -3px;
+    right: 10px;
+    color: black; } }
+
+._1JEKvVm5E9RuaGrl_eqdJ9 {
+  display: flex;
+  align-items: center;
+  height: 150px; }
+
+._1EdMXJmlnwdOFfqo-V7noF {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 3rem; }
+  ._1EdMXJmlnwdOFfqo-V7noF ._2N9O5T0AOjQFqsIIue7NVs {
+    margin-right: 10px;
+    font-weight: 900; }
+  ._1EdMXJmlnwdOFfqo-V7noF .r-fRa7qSQ3elaXxsW5xQD {
+    font-weight: 500; }
+
+@media screen and (max-width: 550px) {
+  ._1EdMXJmlnwdOFfqo-V7noF {
+    margin: 0 auto; } }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px; }
+  footer ._23xnXP_z0WoKBeBjTR2glX {
+    margin-right: 10px; }
+  footer nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: monospace;
+    font-size: 1.4rem;
+    cursor: pointer; }
+
+._3dsEcDaoCCytBFsKwXg_SN {
+  padding-bottom: 150px;
+  margin-top: 60px;
+  font-family: monospace;
+  font-size: 1.6rem; }
+
+._1LlWJAVqsFZKfm8c7PX4NA {
+  pointer-events: none; }
+
+.iHcljqRxUbN7hB4a8Al3q {
+  position: fixed;
+  top: calc(50% - 50px / 2);
+  left: calc(50% - 50px / 2);
+  z-index: 1;
+  width: 50px;
+  height: 50px; }
+
+._1ZvUawIsdmkul5V2Zqv9qi {
+  position: relative;
+  width: 365px;
+  min-height: 100%;
+  margin-left: 20%;
+  box-sizing: border-box; }
+
+@media screen and (max-width: 550px) {
+  ._1ZvUawIsdmkul5V2Zqv9qi {
+    width: 85%;
+    margin: 0 auto; } }
+
+.YnkjpVFBXN0-D5WMUdcls {
+  margin-top: 30%;
+  font-family: monospace;
+  font-size: 40px;
+  text-align: center; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  height: 100%;
+  font-size: 10px; }
+
+body {
+  height: 100%; }
+

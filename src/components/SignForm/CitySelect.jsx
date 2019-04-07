@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import AutoInput from "./AutoInput";
+import PropTypes from "prop-types";
+import AutoInput from "../AutoInput/AutoInput";
 
 const cities = {
   Russia: ["Москва", "Рязань", "Калуга"],
@@ -15,18 +16,21 @@ class CitySelect extends Component {
   };
 
   render() {
+    const { err } = this.props;
     return (
       <div>
         <AutoInput
           callback={this.getCountry}
+          err={err.country}
           fields={countries}
           label="Страна"
           name="country"
           required
         />
-        <AutoInput fields={this.state.cites} label="Город" name="city" required />
+        <AutoInput err={err.city} fields={this.state.cites} label="Город" name="city" required />
       </div>
     );
   }
 }
+CitySelect.propTypes = { err: PropTypes.oneOfType([PropTypes.bool, PropTypes.object]).isRequired };
 export default CitySelect;

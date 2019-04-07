@@ -5,7 +5,7 @@ import s from "./Nav.sass";
 
 function Nav({ location }) {
   const isReg = location.pathname === "/";
-  const isLogin = location.pathname === "/loginPage";
+  const isLogin = location.pathname === "/login-page";
   return (
     <div className={s.container}>
       <div>
@@ -14,7 +14,7 @@ function Nav({ location }) {
         </a>
       </div>
       {isLogin && <Link to="/">Регистрация</Link>}
-      {isReg && <Link to="/loginPage">Вход</Link>}
+      {isReg && <Link to="/login-page">Вход</Link>}
     </div>
   );
 }

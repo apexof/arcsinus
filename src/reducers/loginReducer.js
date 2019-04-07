@@ -1,12 +1,17 @@
-import { LOG_IN } from "../AC";
+import { LOG_IN, CLEAR_LOGIN, ERR } from "../AC";
 
-function loginReducer(login, { type, payload: data }) {
+function loginReducer(loginState = false, { type, payload: data, ...rest }) {
   switch (type) {
     case LOG_IN:
-      console.log(data);
-      return true;
-    default:
+      if (data.smsCode) console.log("Смс код: ", data.smsCode);
+      return data.err ? data.errMsg : true;
+    case CLEAR_LOGIN:
       return false;
+    case LOG_IN + ERR:
+      console.log(data, rest);
+      return false;
+    default:
+      return loginState;
   }
 }
 

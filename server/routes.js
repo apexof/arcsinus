@@ -1,19 +1,21 @@
-const random = require("random");
-const { users } = require("./models/user");
+const { userFind, checkCode } = require("./utils");
+const { serverErrors } = require("./serverErrors");
+const { User } = require("./models/user");
 
 module.exports = function(app) {
-  const smsCode = [];
   app.post("/login", (req, res) => {
-    smsCode[0] = random.int(0, 9999);
-    res.send({ smsCode });
+    userFind(req.body)
+      .then(data => res.send(data))
+      .catch(serverErrors);
   });
-  app.post("/sms-check", (req, res) => {
-    res.send({ smsValid: req.body.code === smsCode[0] });
-  });
+
   app.post("/registrate", (req, res, next) => {
-    users.create(req.body, (err, user) => {
-      if (err) return next(err);
-      res.send({ err: false });
-    });
+    User.create(req.body, err => (err ? next(err) : res.send({ err: false })));
+  });
+
+  app.post("/sms-check", (req, res) => {
+    checkCode(req.body)
+      .then(data => res.send(data))
+      .catch(serverErrors);
   });
 };

@@ -5,6 +5,8 @@ const validErrs = (err, req, res, next) => {
       errMsg[field] = err.errors[field].message;
     });
     res.send({ err: true, errMsg });
+  } else {
+    console.log(err);
   }
   next();
 };

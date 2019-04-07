@@ -1,10 +1,12 @@
 import { RSAA } from "redux-api-middleware";
-import { START, ERR } from "./ACcommon";
 
+export const START = "_START";
+export const ERR = "_ERR";
 export const LOG_IN = "LOG_IN";
 export const REG = "REG";
 export const SMS_CHECK = "SMS_CHECK";
-export const CREAR_REG = "CREAR_REG";
+export const CLEAR_REG = "CREAR_REG";
+export const CLEAR_LOGIN = "CLEAR_LOGIN";
 
 export function smsCheck(formData) {
   return {
@@ -12,7 +14,7 @@ export function smsCheck(formData) {
       method: "POST",
       endpoint: "/sms-check",
       body: formData,
-      types: [START, SMS_CHECK, ERR]
+      types: [START, SMS_CHECK, SMS_CHECK + ERR]
     }
   };
 }
@@ -39,5 +41,8 @@ export function registrate(formData) {
   };
 }
 export function clearReg() {
-  return { type: CREAR_REG };
+  return { type: CLEAR_REG };
+}
+export function clearLogin() {
+  return { type: CLEAR_LOGIN };
 }

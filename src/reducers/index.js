@@ -6,7 +6,7 @@ import smsReducer from "./smsReducer";
 
 const reducer = combineReducers({
   loading: loadingReducer,
-  login: loginReducer,
+  loginState: loginReducer,
   registrate: regReducer,
   smsValid: smsReducer
 });

@@ -4,9 +4,9 @@ import reducer from "../reducers";
 
 const state = {
   loading: false,
-  login: false,
+  loginState: false,
   registrate: false,
-  smsValid: null
+  smsValid: false
 };
 const store = createStore(reducer, state, applyMiddleware(apiMiddleware));
 

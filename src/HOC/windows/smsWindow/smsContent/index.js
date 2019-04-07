@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
-import smsContent from "./smsContent";
-import { smsCheck } from "../../../AC";
+import SmsContent from "./SmsContent";
+import { smsCheck } from "../../../../AC";
 
 const mapDispatchToProps = { smsCheck };
 
@@ -9,6 +9,6 @@ const mapStateToProps = state => ({ smsValid: state.smsValid });
 const ConnectedSmsContent = connect(
   mapStateToProps,
   mapDispatchToProps
-)(smsContent);
+)(SmsContent);
 
 export default ConnectedSmsContent;

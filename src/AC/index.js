@@ -1,2 +1,1 @@
-export * from "./ACcommon";
-export * from "./AClogin";
+export * from "./ACauth";
