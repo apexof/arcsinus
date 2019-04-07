@@ -4,7 +4,7 @@ const NODE_ENV = process.env.NODE_ENV || "development";
 const IS_DEV = NODE_ENV === "development";
 const PORT = NODE_ENV === "development" ? 8080 : process.env.PORT;
 const user = "apex";
-const pass = "Florida_6";
+const pass = "Здесь нет пароля";
 const DBName = "Arcsinus-test-task";
 const MONGODB_URI = `mongodb+srv://${user}:${pass}@rapmash-2dv5p.mongodb.net/${DBName}?retryWrites=true`;
 
